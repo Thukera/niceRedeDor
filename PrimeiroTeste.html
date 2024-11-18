@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* Custom CSS for the welcome page */
+        body {
+            background-color: #f8f9fa; /* Light background */
+        }
+
+        .welcome-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .welcome-message {
+            background-color: white;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container welcome-container">
+        <div class="welcome-message">
+            <h1 class="display-4">Rede D´Or</h1>
+            <p class="lead">Pagina Para testes de Pontos de Contato</p>
+            <button id="welcomeButton" class="btn btn-primary">Teste JS</button>
+        </div>
+    </div>
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Your JavaScript -->
+    <script>
+        // Sample JavaScript code to handle button click
+        document.getElementById('welcomeButton').addEventListener('click', function () {
+            alert('Button clicked! JavaScript is working.');
+        });
+    </script>
+</body>
+
+</html>
