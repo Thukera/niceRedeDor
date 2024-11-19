@@ -63,6 +63,16 @@
     })('brandembassy','https://livechat-static-de-na1.niceincontact.com/4/chat.js');
 
     brandembassy('init', 1404, 'chat_8859cf55-a196-449b-9ce9-fbf4127bed50');
+
+    brandembassy('setLocale', 'locale');
+    brandembassy('disableButtonsAfterContactClosed');
+    brandembassy('openChatWindow');
+    brandembassy('setTranslation', 'waitingDescription', ' ');
+    brandembassy('setTranslation', 'noAgentOnlineForQueue', ' ');
+    brandembassy('hidePopups'); 
+    //brandembassy('hideChatWindow'); // COMEÇA COM O CHAT MINIMIZADO
+    brandembassy('sendFirstMessageAutomatically', true);
+    brandembassy('enableChatAlwaysOnline');
 </script>
 
     
